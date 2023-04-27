@@ -1,0 +1,33 @@
+tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+td,
+th {
+    padding: 20px;
+    text-align: start;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+}
+
+.insta {
+    background-color: #EA0C5F;
+    color: black;
+    height: 30px;
+    border: 0;
+}
+
+.youtube {
+    background-color: #CC0000;
+    color: black;
+    height: 30px;
+    border: 0;
+}
